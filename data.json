@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/sg-income-poverty-estimates",
+    "title": "Edinburgh Income And Poverty Modelled Estimates",
+    "description": "This dataset includes information about estimated household income, and percent of households with low incomes in Edinburgh.",
+    "landingPage": "https://github.com/EdinburghCityScope/sg-income-poverty-estimates",
+    "issued": "2016-10-21",
+    "modified": "2016-11-21",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "Scottish Government",
+        "mbox": "statistics.enquiries@scotland.gsi.gov.uk"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "community"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-income-poverty-estimates/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh Income And Poverty Modelled Estimates data",
+            "description": "Income And Poverty Modelled Estimates by Edinburgh Data Zones 2001 as published by Scottish Government. Data taken from http://statistics.gov.scot/data/income-and-poverty-modelled-estimates",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-income-poverty-estimates/master/data/income-poverty-estimates.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
